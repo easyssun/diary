@@ -88,7 +88,7 @@ const App = () => {
       </div>
 
       <div className="diary-container" ref={diaryRef}>
-        <img src="images/diary_background.png" alt="Diary Background" className="diary-bg" />
+        <img src="https://easyssun.github.io/diary/public/images/diary_background.png" alt="Diary Background" className="diary-bg" />
         <div className="text-container" style={{ fontSize: `${fontSizes[fontSizeLevel - 1]}px` }}>
           {isTyping ? (
             // 타자기 효과 적용된 텍스트 표시
