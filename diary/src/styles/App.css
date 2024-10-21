@@ -59,6 +59,11 @@ textarea.diary-textarea, div.diary-text {
   color: #5b5b5b; /* 감성적인 글씨 색상 */
 }
 
+textarea:focus {
+  outline: none;
+  border: none; /* 선택 시 border도 없애려면 추가 */
+}
+
 /* 감성적인 버튼 디자인 */
 .emotion-button {
   background-color: #f0e5d8;  /* 부드러운 버튼 색상 */
